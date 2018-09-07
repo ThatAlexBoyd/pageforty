@@ -1,0 +1,40 @@
+{
+    "name": "daily-news",
+    "description": "Responsive Minimal Material Design Ghost Theme.",
+    "demo": "http://daily-news.gbjsolution.com",
+    "version": "2.2.0",
+    "engines": {
+        "ghost": ">=2.0.0"
+    },
+    "screenshots": {
+        "desktop": "assets/screenshot-desktop.jpg",
+        "mobile": "assets/screenshot-mobile.jpg"
+    },
+    "author": {
+        "name": "GBJ solution",
+        "email": "gbjsolution@gmail.com",
+        "url": "http://gbjsolution.com"
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "Minimal",
+			"News Blog",
+			"Magazine Layouts",
+			"Business Blogs",
+			"Personal Blogs"
+        ]
+    },
+    "keywords": [
+        "ghost",
+        "theme",
+        "ghost-theme",
+		"news",
+        "personal",
+        "minimal",
+        "material desigh"
+    ],
+    "config": {
+        "posts_per_page": 5
+    }
+}
