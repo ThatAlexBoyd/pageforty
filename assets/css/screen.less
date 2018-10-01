@@ -137,7 +137,7 @@ input[type='text'], input[type='email'] {
 	margin-bottom: 28px;
 }
 .navbar {
-	background: @theme-color-secondary;
+	background: @theme-color;
 	border: none;
 	.border-radius(0);
 	min-height: 48px;
@@ -180,6 +180,9 @@ input[type='text'], input[type='email'] {
 				&:hover, &:focus {
 					background: @theme-color;
 					color: @white;
+					border-bottom: 5px solid @theme-color-secondary;
+					box-sizing: border-box;
+					height: 48px;
 				}
 			}
 		}
@@ -779,7 +782,7 @@ input[type='text'], input[type='email'] {
 .share-wrap {
 	margin-bottom: 28px;
 	.share-wrap-inner {
-		background: @theme-color-secondary;
+		background: @theme-color;
 		padding: 14px;
 		text-align: center;
 		.share-text {
@@ -797,14 +800,14 @@ input[type='text'], input[type='email'] {
 						width: 35px;
 						height: 35px;
 						line-height: 35px;
-						background: @theme-color-secondary;
+						background: @theme-color;
 						text-align: center;
 						color: @white;
 						.border-radius(50%);
 					}
 					&:hover {
 						i {
-							background: @theme-color;
+							background: @theme-color-secondary;
 						}
 					}
 				}
